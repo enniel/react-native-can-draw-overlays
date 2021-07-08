@@ -1,0 +1,18 @@
+{
+  "name": "react-native-can-draw-overlays",
+  "version": "1.0.0",
+  "description": "can draw overlays permission",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "clean:js": "rm -rf node_modules package-lock.json",
+    "clean:android": "rm -rf android/build",
+    "clean": "npm run clean:js && npm run clean:android",
+    "fresh": "npm run clean && npm i --legacy-peer-deps --no-optional"
+  },
+  "devDependencies": {
+    "@types/react-native": "0.64.10",
+    "react": "17.0.1",
+    "react-native": "0.64.2"
+  }
+}
