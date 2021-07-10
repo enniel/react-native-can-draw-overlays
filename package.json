@@ -4,6 +4,16 @@
   "description": "can draw overlays permission",
   "main": "index.js",
   "types": "index.d.ts",
+  "author": "Evgeny Razumov (enniel)",
+  "license": "MIT",
+  "homepage": "https://github.com/enniel/react-native-can-draw-overlays",
+  "bugs": {
+    "url": "https://github.com/enniel/react-native-can-draw-overlays/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/enniel/react-native-can-draw-overlays.git"
+  },
   "scripts": {
     "clean:js": "rm -rf node_modules package-lock.json",
     "clean:android": "rm -rf android/build",
